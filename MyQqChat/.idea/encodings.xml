@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/client/model/LoginUser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/tools/ClientToServerThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/tools/ManageChatFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/tools/ManageFriendListFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/tools/ManageThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/tools/MyTreeCellRenderer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/view/Chat.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/view/FriendList.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/client/view/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/common/Message.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/common/MsgType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/common/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/server/model/Server.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/server/tools/JDBC_Util.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/server/tools/ManageClientThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/server/tools/MyTreeCellRenderer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/server/tools/ServerConClientThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/server/view/ServerFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/test/MyTreeCellRenderer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/test/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/test/TestClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/test/TestServer.java" charset="GBK" />
+  </component>
+</project>
