@@ -30,12 +30,12 @@ a simple QQ based on Java
 比如小明双击小红打开界面，小红双击小明打开界面，之后二人正常开始聊天;如果小明打开与小红聊天界面，发送消息，此时小红未打开与小明的聊天界面，则小红无法收到此消息。
 
 ### **项目代码结构如下：**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211544453.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211553756.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\00.png)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\01.png)
 
 
 #### **客户端代码结构：**
-	
+
 
  - package com.client.view
 
@@ -43,7 +43,6 @@ a simple QQ based on Java
 		Chat.java//好友聊天界面
 		FriendList.java//登录成功主页面
 	
-
  - package com.client.tools
 
 		ClientToServerThread.java//登录成功后开一个线程保持与服务器通讯，接收消息
@@ -52,31 +51,28 @@ a simple QQ based on Java
 		ManageFriendListFrame.java//管理所有的主页面(显示好又列表的界面)
 		MyTreeCellRender.java//设置树形结构显示好友时在线离线的不同显示
 	
-
  - package com.client.model
 
 		LoginUser.java//检验用户登录信息并发送到服务器接收结果
 		
 #### **服务器端代码结构：**
-	
+
 
  - package com.server.view
 
 		ServerFrame.java//服务器开启关闭界面
 	
-
  - package com.server.tools
 
 		JDBC_Util.java//所有操作数据库的方法全部在此类实现
 		ServerConClientThread.java//客户端登录成功服务器开一个线程与此客户端保持通讯
 		ManaClientThread.java//管理所有与客户端通信的线程
 	
-
  - package com.server.model
 
 		Server.java//用户对客户端发起登录请求进行处理，验证身份
 #### **公共包**：
-	
+
 
  - com.common
 
@@ -91,19 +87,19 @@ a simple QQ based on Java
  - t_user保存已有的用户信息
  - t_friends保存用户的好友信息
 
-	![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429210918176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211156847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
+	![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\1.png)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\2.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211329828.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211340925.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211349516.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211358153.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\3.png)![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\4.png)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\5.png)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\6.jpg)
 
 ### **项目运行截图如下：**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429211953332.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212005851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212016633.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212025484.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212034394.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s1.png)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s2.png)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s3.jpg)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s4.jpg)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s6.jpg)
 
 ### **补充以下：**
 
@@ -111,10 +107,10 @@ a simple QQ based on Java
  - 只有数据库chat中t_user表中用户才能登录成功。
  - 程序对用户输入信息进行各种检验，效果挺好。
  - 项目未实现离线聊天功能，选择与不在线好友聊天会有相应提示
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212407629.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212424471.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212448284.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429212459782.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1l1X1NoZW5nX0Jhbl9OaQ==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o1.jpg)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o2.jpg)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o4.jpg)
+![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o5.jpg)
 
 ### **总结：**
 只实现了最基本的功能，有很很大部分功能并未实现，感兴趣的朋友可以自己扩展。
