@@ -30,8 +30,8 @@ a simple QQ based on Java
 比如小明双击小红打开界面，小红双击小明打开界面，之后二人正常开始聊天;如果小明打开与小红聊天界面，发送消息，此时小红未打开与小明的聊天界面，则小红无法收到此消息。
 
 ### **项目代码结构如下：**
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\00.png)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\01.png)
+![](/screenshot/00.png)
+![](/screenshot/01.png)
 
 
 #### **客户端代码结构：**
@@ -87,19 +87,19 @@ a simple QQ based on Java
  - t_user保存已有的用户信息
  - t_friends保存用户的好友信息
 
-	![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\1.png)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\2.png)
+![](/screenshot/1.png)
+![](/screenshot/2.png)
 
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\3.png)![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\4.png)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\5.png)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\6.jpg)
+![](/screenshot/3.png)![](/screenshot/4.png)
+![](/screenshot/5.png)
+![](/screenshot/6.jpg)
 
 ### **项目运行截图如下：**
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s1.png)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s2.png)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s3.jpg)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s4.jpg)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\s6.jpg)
+![](/screenshot/s1.png)
+![](/screenshot/s2.png)
+![](/screenshot/s3.jpg)
+![](/screenshot/s4.jpg)
+![](/screenshot/s6.jpg)
 
 ### **补充以下：**
 
@@ -107,10 +107,10 @@ a simple QQ based on Java
  - 只有数据库chat中t_user表中用户才能登录成功。
  - 程序对用户输入信息进行各种检验，效果挺好。
  - 项目未实现离线聊天功能，选择与不在线好友聊天会有相应提示
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o1.jpg)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o2.jpg)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o4.jpg)
-![在这里插入图片描述](D:\devTools\Git\project\MyQqChat\MyQqChat\screenshot\o5.jpg)
+![](/screenshot/o1.jpg)
+![](/screenshot/o2.jpg)
+![](/screenshot/o4.jpg)
+![](/screenshot/o5.jpg)
 
 ### **总结：**
 只实现了最基本的功能，有很很大部分功能并未实现，感兴趣的朋友可以自己扩展。
