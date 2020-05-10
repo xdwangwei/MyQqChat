@@ -17,7 +17,7 @@ public class JDBC_Util {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //建立连接
-            con = DriverManager.getConnection("jdbc:mysql://localhost/chat?useSSL=FALSE&serverTimezone=UTC","root","123456");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/chat?useSSL=FALSE&serverTimezone=Asia/Shanghai","root","123456");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
